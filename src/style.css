@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+}
+
+.text{
+    text-align: center;
+}
+.character-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-width: 300px;
+    text-align: center;
+
+    
+    
+}
+
+.character-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.character-info {
+    padding: 15px;
+}
+
+.character-name {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.character-detail {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.character-detail span {
+    font-weight: bold;
+    color: #333;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.character-card {
+    margin: 10px;
+    flex-grow: 1; 
+    max-width: 300px; 
+}
+
+/* header css*/
+
+.my-header {
+    background-color: #88e23b;
+    color: #043c6e;
+    padding: 10px 15px;
+}
+
+.my-header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-header nav ul li {
+    display: inline;
+}
+
+.my-header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.my-header nav ul li a:hover {
+    background-color: #444;
+}
